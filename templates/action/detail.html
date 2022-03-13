@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Detail{% endblock title %}
+{% block content %}
+<div class="list">
+    <div class="name"><p>{{ action.name }}</p></div>
+    <div class="problem"><p>{{ action.problem }}</p></div>
+    <div class="solution"><pre>{{ action.solution }}</pre></div>
+    <div class="date"><p>Решено:<span>{{ action.created }}</span></p></div>
+    <div class="description"><p>{{ action.description }}</p></div>
+
+</div>
+{% endblock content %}

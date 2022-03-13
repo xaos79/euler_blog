@@ -1,0 +1,55 @@
+html {
+    background: url("../img/wood.jpg") no-repeat fixed;
+    background-size: cover;
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+nav {
+    background-color: black;
+    height: 60px;
+}
+nav a{
+    display: inline-block;
+    color: white;
+    margin: 20px 5px 20px 10px;
+    font-family: LKLUG;
+
+}
+/*nav a:hover{*/
+/*    background-color: green;*/
+/*    height: 100%;*/
+/*    border: black solid;*/
+/*}*/
+.list {
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+.list p {
+    margin: 10px;
+    font-family: LKLUG;
+}
+.list .name {
+    text-align: center;
+    font-size: large;
+}
+.list .problem {
+    text-align: center;
+    font-size: medium;
+}
+.list .date {
+    text-align: right;
+    font-size: small;
+
+}
+.list .date span{
+    font-style: italic;
+}
+
+

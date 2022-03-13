@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+{% block content %}
+<div class="list">
+    {% for action in actions %}
+        <p><a href="{% url 'action:detail' action.id %}">{{ action }}</a></p>
+    {% endfor %}
+</div>
+{% endblock content %}
